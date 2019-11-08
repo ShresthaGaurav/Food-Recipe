@@ -82,7 +82,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/editpass"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginStart="180dp"
@@ -94,7 +94,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/editname"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginStart="180dp"
