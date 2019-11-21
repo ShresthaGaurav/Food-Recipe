@@ -6,21 +6,30 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:background="@drawable/original"
     tools:context=".MainActivity">
+
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:fontFamily="@font/scriptn"
+        android:shadowColor="#004D1A1A"
         android:text="Food Recipe "
         android:textAlignment="center"
-        android:textSize="50dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <TextView
         android:id="@+id/textView2"
